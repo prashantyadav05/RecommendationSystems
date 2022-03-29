@@ -39,3 +39,4 @@ This is not desirable as it is highly likely that a movie watched and rated only
 3. Ask the user for the timeline of the movies recommended.
 4. Using the information collected, recommend movies to the user that have a high weighted rating (according to the IMDB formula) and that satisfy the preceding conditions.
 ## Building Content-Based Recommenders
+## Document vectors
