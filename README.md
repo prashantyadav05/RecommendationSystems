@@ -40,3 +40,8 @@ This is not desirable as it is highly likely that a movie watched and rated only
 4. Using the information collected, recommend movies to the user that have a high weighted rating (according to the IMDB formula) and that satisfy the preceding conditions.
 ## Building Content-Based Recommenders
 ## Document vectors
+## Building a hybrid model
+1. Take in a movie title and user as input
+2. Use a content-based model to compute the 25 most similar movies
+3. Compute the predicted ratings that the user might give these 25 movies using a collaborative filter
+4. Return the top 10 movies with the highest predicted rating
